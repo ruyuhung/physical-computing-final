@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LoadSound</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<div>
+  <h2>Sound Value</h2>
+  </div>
+
+  <div>
+<center>
+  <button id="getSoundDetector" onclick="getValue();" class ="button button1">Get Sound Value </button>
+  <p>Sound Value: <span id="amount">Sound detector is not working as this moment.</span></p>
+</center>
+</div>
+
+
+  <script type="text/javascript">
+      var deviceID    = "320039001751353432393433";
+      var accessToken = "394d3c6278fbfca17465503aeaeea4c05fc2eb1f";
+      var var2get = "soundValue";
+      function getValue() {
+          var requestURL = "https://api.particle.io/v1/devices/" +deviceID + "/" + var2get + "/?access_token=" + accessToken;
+          $.getJSON(requestURL, function(json) {
+                   $("#amount").text(json.result);
+               });
+      }
+  </script>
+  </body>
+
+</html>

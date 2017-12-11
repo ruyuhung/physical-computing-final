@@ -1,0 +1,46 @@
+h2
+{
+    font-family: courier;
+    text-align: center;
+    color: #053b3b;
+}
+
+body
+{
+  font-size: 14pt;
+  font-family: arial;
+}
+
+P
+{
+  color: #053b3b;
+  font-size: 13pt;
+  font-family: times;
+}
+
+.button
+{
+      background-color: #00ffff; /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: #053b3b;
+    border: 2px solid #00ffff;
+}
+
+.button1:hover {
+    background-color: #00ffff;
+    color: white;
+}
