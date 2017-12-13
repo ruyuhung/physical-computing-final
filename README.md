@@ -104,7 +104,7 @@ This is the html reading the sound value and producing circle graph accordingly.
 [Click](http://people.duke.edu/~jh518/Sound/sound.html)
 
 When it is not reading the sound input, this is another similar webpage constructing by random value.
-[Click]((http://people.duke.edu/~jh518/Sound/soundTest.html)
+[Click](http://people.duke.edu/~jh518/Sound/soundTest.html)
 
 ### Laser Cutting:
 For precise cutting of mirrors and acrylics, I use the "Epilog Fusion M2 Laser" Cutter to cut 7 * 7 inch mirror and acrylic hologram with adobe illustrator.
