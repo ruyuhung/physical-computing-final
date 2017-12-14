@@ -9,6 +9,7 @@ Final Project - Physical Computing and the Internet of Things
 <h1>
 Project: Multifaceted SoundScape - A study on infinity mirror
 </h1>
+<img="https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/MultifacetedLogo.jpg">
 </p>
 
 ## Introduction:
