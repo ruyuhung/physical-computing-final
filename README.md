@@ -11,7 +11,7 @@ Project: Multifaceted SoundScape - A study on infinity mirror
 </h1>
 </p>
 
-![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/MultifacetedLogo.jpg) 
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/MultifacetedLogo.jpg)
 
 ## Introduction:
 In this project, I explore the affordance of [Sparkfun Sound Detector](https://www.sparkfun.com/products/12642) and its embodiment onto an "[Infinity Mirror](https://en.wikipedia.org/wiki/Infinity_mirror),"  hologram, and servo motor. To explore multiple ways of converting the analog audio input to various facets of output, I choose different objects from the LED strips to a generative holography by JavaScript and the kinetic energy of a servo motor. The reason that I select infinity mirror as the stage not only because of its dramatic and aesthetic visual representation but also the looping concept which resonates with the programming world and the potential which technology evolves,  transforms and reinvents itself. My project is positioned between the subjects of computing, visual programming, computer-based (or handmade)  artifacts, and the imagination of future space. The primary practice would be to process documenting and critical making analysis.
@@ -30,10 +30,10 @@ Infinity mirror is my primary display in this project. The main structure of inf
 The choice of holography is the imagination of future space. As several sci-fi movies have shown, in the future, the urban landscape would be concrete buildings with the intangible but visible hologram, for instance, in 'Blade Runner 2049,' future cities are depicted as giant holographic figures could interact with humans.
 Holography means the process of making hologram which empowers the audience to see the three-dimensional images without putting any other devices on themselves. It is a phenomenon first introduced by a Hungarian-born physicist, Dennis Gabor, in 1948. To construct a hologram, it has to be at least two layers of optical fields. An interference for diffracting the light and the reconstruction of images constitute a holographic image. For more detailed optical physics description please [click here](https://www.britannica.com/technology/holography#toc3271).
 Here, I construct a simplified version of a holography made by four pieces of the acrylic sheet, and the content will be sound generated graph by p5*JS.
-![alt](image)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/P5Page.jpg)
 
 ### Inspiration and Critical Making:
-
+I am fascinated by the potentials which technology empowers us and the shift of paradigm from traditional craftsmanship to technology users(or consumers). Also, the contrast between precise analog reading data to an illusion of infinity mirror is intriguing. The holographic image is my imagination of future space. And through the material engagement practice, I learn the particular characteristic of each object. As the "Critical Making" indicated and emphasized, the difference between maker movement and critical making lies in its process.
 
 ## Technical Practice:
 
@@ -75,9 +75,11 @@ The following diagram shows the input and output devices in this project. (1)
 Before using the LED strip (WS2812), I soldered the individual led together and build a simple stand from the rest of my material. See how the led reacts to sound detector in the following video.
 [![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/InfinityMirror_Test.jpg)](https://youtu.be/By63XaNeQ3g)
 
-### Particle cloud
-I use Particle Cloud to send the audio data to the JavaScript. Firstly, sending the integer through `Particle.variable`.
+### Particle.io
+##### My entire code in particle [soundscape_Rainbow.ino](https://github.com/ruyuhung/physical-computing-final/blob/master/code/soundscape_Rainbow.ino)
+
 #### particle variable
+I use Particle Cloud to send the audio data to the JavaScript. Firstly, sending the integer through `Particle.variable`.
 ```C++
 #define PIN_ANALOG_IN A0
 
@@ -89,33 +91,27 @@ int readSound()
     return val;
 }
 ```
-##### My code for particle [soundscape_Rainbow.ino](https://github.com/ruyuhung/physical-computing-final/blob/master/code/soundscape_Rainbow.ino)
 
 ### P5*JS programming
-In P5*JS libraries, I use loadJSON function to call the data from the particle cloud.
+#### [My entire p5*JS code](https://github.com/ruyuhung/physical-computing-final/blob/master/code/sketch.js)
+#### [My LoadSound HTML Webpage](http://people.duke.edu/~jh518/Sound/soundTest.html) [Live Demo Webpage](http://people.duke.edu/~jh518/Sound/sound.html)
+(When it is not reading the sound input, this is another similar webpage constructing by random value. This is the html reading the sound value and producing circle graph accordingly.)
+
+In P5*JS libraries, I use loadJSON function to call the data from the particle cloud. And I create another function called `function parseData` to store the analog reading value.
 ```JavaScript
 var url ='https:/api.particle.io/v1/devices/320039001751353432393433/soundValue?access_token=394d3c6278fbfca17465503aeaeea4c05fc2eb1f';
 data = loadJSON(url, parseData);
 ```
-And generate four identical circles for the hologram and also set the ellipse diameter as the reading data from the sound detector, also use map() function to map the sound value to the size of my canvas.
+And generate four identical circles for the hologram and also set the ellipse diameter as the reading data from the sound detector.
 ```JavaScript
 function parseData(data)
 {
   reading = data.result;
-	 // the statement after data has to be the names in JSON!!!
-  radius = map(reading, 0, 4046, 1, 500);
-	// map the audio envelope input to the size of 1/4*canvas
 }
 ```
 
-This is the html reading the sound value and producing circle graph accordingly.
-[Click](http://people.duke.edu/~jh518/Sound/sound.html)
-
-When it is not reading the sound input, this is another similar webpage constructing by random value.
-[Click](http://people.duke.edu/~jh518/Sound/soundTest.html)
-
 ### Laser Cutting:
-For precise cutting of mirrors and acrylics, I use the "Epilog Fusion M2 Laser" Cutter to cut 7 * 7 inch mirror and acrylic hologram with adobe illustrator.
+For precise cutting of mirrors and acrylics, I use the "Epilog Fusion M2 Laser" Cutter to cut 7 * 7 inch mirror and acrylic hologram designed by Adobe Illustrator.
 ![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/LaserCutting_pic.jpg)
 #### Cutting Completed
 ![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/Hologram.JPG)
