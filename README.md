@@ -6,7 +6,9 @@ Final Project - Physical Computing and the Internet of Things
 #### *Date: 12.03.2017*
 
 <p align="center">
-# Project: Multifaceted SoundScape - A study on infinity mirror
+<h1>
+Project: Multifaceted SoundScape - A study on infinity mirror
+</h1>
 </p>
 
 ## Introduction:
