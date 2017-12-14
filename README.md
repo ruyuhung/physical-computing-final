@@ -1,14 +1,14 @@
-<p align="center">
-## Final Project - Physical Computing and the Internet of Things
-</p>
+<p align="center"> <h1>
+Final Project - Physical Computing and the Internet of Things
+</p> </h1>
 
 #### *Name: Ruby Hung*
 #### *Date: 12.03.2017*
 
-<p align="center">
-# Project: MultifacetedSoundScape
-### A study on infinity mirror
-</p>
+<p align="center"> <h2>
+Project: MultifacetedSoundScape <br/>
+A study on infinity mirror
+</p> </h2>
 
 ## Introduction:
 In this project, I explore the affordance of [Sparkfun Sound Detector](https://www.sparkfun.com/products/12642) and its embodiment onto an "[Infinity Mirror](https://en.wikipedia.org/wiki/Infinity_mirror),"  hologram, and servo motor. To explore multiple ways of converting the analog audio input to various facets of output, I choose different objects from the LED strips to a generative holography by JavaScript and the kinetic energy of a servo motor. The reason that I select infinity mirror as the stage not only because of its dramatic and aesthetic visual representation but also the looping concept which resonates with the programming world and the potential which technology evolves,  transforms and reinvents itself. My project is positioned between the subjects of computing, visual programming, computer-based (or handmade)  artifacts, and the imagination of future space. The primary practice would be to process documenting and critical making analysis.
