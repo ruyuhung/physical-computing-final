@@ -1,10 +1,11 @@
-<p align="justify">
+<p align="center">
 ## Final Project - Physical Computing and the Internet of Things
 </p>
 
 #### *Name: Ruby Hung*
 #### *Date: 12.03.2017*
-<p align="justify">
+
+<p align="center">
 # Project: MultifacetedSoundScape
 ### A study on infinity mirror
 </p>
