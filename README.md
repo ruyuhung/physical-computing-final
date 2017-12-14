@@ -5,9 +5,9 @@ Final Project - Physical Computing and the Internet of Things
 #### *Name: Ruby Hung*
 #### *Date: 12.03.2017*
 
-<p align="center"> <h2>
-Project: MultifacetedSoundScape <br/>
-A study on infinity mirror
+<p align="center">
+<h2>
+Project: Multifaceted SoundScape - A study on infinity mirror
 </p> </h2>
 
 ## Introduction:
