@@ -87,7 +87,7 @@ int readSound()
     return val;
 }
 ```
-##### My code for particle [soundscape_Rainbow.ino]()
+##### My code for particle [soundscape_Rainbow.ino](https://github.com/ruyuhung/physical-computing-final/blob/master/code/soundscape_Rainbow.ino)
 
 ### P5*JS programming
 In P5*JS libraries, I use loadJSON function to call the data from the particle cloud.
