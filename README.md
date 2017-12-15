@@ -24,7 +24,7 @@ The soundscape is the environmental audio that could be perceived by humans. It 
 
 ### Infinity Mirror:
 Infinity mirror is my primary display in this project. The main structure of infinity mirror is in the following diagram.  It consists of two layers of mirrors. In the front is a piece of 'two-way mirror' and at the back is the standard mirror. If we place anything in between, we will see two mirrors interact with each other, and the two-way mirror allows the audience to look through it. In general, it is a phenomenon of endless reflection between two pieces of mirrors. (1)
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/InfinityMirror.PNG)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/InfinityMirror.PNG)
 
 ### Holography
 The choice of holography is the imagination of future space. As several sci-fi movies have shown, in the future, the urban landscape would be concrete buildings with the intangible but visible hologram, for instance, in 'Blade Runner 2049,' future cities are depicted as giant holographic figures could interact with humans.
@@ -42,10 +42,10 @@ It will be a cube  of 7" * 7" * 7" with three sides of mirrors. The front mirror
 
 ### Input and output
 The following diagram shows the input and output devices in this project. (1)
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/InputOutput.png)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/InputOutput.png)
 
 ### Wiring diagram
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/Sound_breadboard.jpg)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/Sound_breadboard.jpg)
 
 ### Material, Hardware, and Software Used
 	• Electronic Components:
@@ -69,11 +69,11 @@ The following diagram shows the input and output devices in this project. (1)
 		○ Ultimaker 2 (3D printer)
 
 ### Sound Detector Test (click to watch the link 41 secs)
-[![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/SoundDetector_Test.jpg)](https://youtu.be/0kD-XAbrdFI)
+[![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/SoundDetector_Test.jpg)](https://youtu.be/0kD-XAbrdFI)
 
 ### Prototype of the Prototype (click to watch the link 24 secs)
 Before using the LED strip (WS2812), I soldered the individual led together and build a simple stand from the rest of my material. See how the led reacts to sound detector in the following video.
-[![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/InfinityMirror_Test.jpg)](https://youtu.be/By63XaNeQ3g)
+[![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/InfinityMirror_Test.jpg)](https://youtu.be/By63XaNeQ3g)
 
 ### Particle.io
 ##### My entire code in particle [soundscape_Rainbow.ino](https://github.com/ruyuhung/physical-computing-final/blob/master/code/soundscape_Rainbow.ino)
@@ -112,16 +112,16 @@ In the drawing function, I generate four identical circles for the hologram and 
 
 ### Laser Cutting:
 For precise cutting of mirrors and acrylics, I use the "Epilog Fusion M2 Laser" Cutter to cut 7 * 7 inch mirror and acrylic hologram designed by Adobe Illustrator.
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/LaserCutting_pic.jpg)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/LaserCutting_pic.jpg)
 #### Cutting Completed
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/Hologram.JPG)
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/LaserCutting_01.JPG)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/Hologram.JPG)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/LaserCutting_01.JPG)
 
 ### 3D Design
 For the frames of infinity mirror, I used Autodesk Fusion 360 and print them out by 'ultimaker2' provided by Co-Lab at Duke.
 #### 3D model rendering
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/illusionMirrorStand_SideA.png)
-![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/IllusionMirrorStand_Fusion360.png)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/illusionMirrorStand_SideA.png)
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/IllusionMirrorStand_Fusion360.png)
 
 ## Result:
 The following video demo is the result of my project with some brief introduction.(Click the image to watch the video)
