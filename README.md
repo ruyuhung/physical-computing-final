@@ -68,10 +68,10 @@ The following diagram shows the input and output devices in this project. (1)
 		○ Fusion Laser Cutter
 		○ Ultimaker 2 (3D printer)
 
-### Sound Detector Test (click to watch the link)
+### Sound Detector Test (click to watch the link 41 secs)
 [![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/SoundDetector_Test.jpg)](https://youtu.be/0kD-XAbrdFI)
 
-### Prototype of the Prototype (click to watch the link)
+### Prototype of the Prototype (click to watch the link 24 secs)
 Before using the LED strip (WS2812), I soldered the individual led together and build a simple stand from the rest of my material. See how the led reacts to sound detector in the following video.
 [![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/InfinityMirror_Test.jpg)](https://youtu.be/By63XaNeQ3g)
 
@@ -124,9 +124,10 @@ For the frames of infinity mirror, I used Autodesk Fusion 360 and print them out
 ![alt](https://github.com/ruyuhung/MultifacetedSoundScape/blob/master/Pics/IllusionMirrorStand_Fusion360.png)
 
 ## Result:
-The following video demo is the result of my project with some brief introduction.
+The following video demo is the result of my project with some brief introduction.(Click the image to watch the video)
 [![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/ProjectDocu.jpg)](https://youtu.be/QifJ2VlDsGo)
 
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/mainStage.jpg)
 
 
 ## Conclusion:
