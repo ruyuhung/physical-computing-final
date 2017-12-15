@@ -127,8 +127,7 @@ For the frames of infinity mirror, I used Autodesk Fusion 360 and print them out
 The following video demo is the result of my project with some brief introduction.(Click the image to watch the video)
 [![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/ProjectDocu.jpg)](https://youtu.be/QifJ2VlDsGo)
 
-![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/mainStage.jpg)
-
+![alt](https://github.com/ruyuhung/physical-computing-final/blob/master/Pics/mainStage.JPG)
 
 ## Conclusion:
 
