@@ -11,17 +11,14 @@ var currentM; // for condition
 
 
 
-function setup() {
+function setup()
+{
   createCanvas (1000,1000);
   background(0);
   frameRate(20);
   var url = 'https://api.particle.io/v1/devices/320039001751353432393433/soundValue?access_token=394d3c6278fbfca17465503aeaeea4c05fc2eb1f';
   data = loadJSON(url, parseData);
   currentM = millis();
-
-
-
-
 }
 
 function callAPI()
@@ -30,12 +27,6 @@ function callAPI()
   data = loadJSON(url, parseData);
 }
 
-function mousePressed()
-{
-  clear();
-
-
-}
 function draw() {
     //This is for testing the drawing works
     // var diameter = random(30,80)*frameCount*0.01;
@@ -58,10 +49,6 @@ function draw() {
     // ellipse(circle4.x, circle4.y, diameter, diameter);
 
 
-
-
-
-
   //This is the real drawing for data input
   if ((millis()-currentM)>1000)
   {
@@ -77,9 +64,13 @@ function draw() {
 
 }
 
-
 function parseData(data)
 {
   reading = data.result; // the statement after data has to be the names in JSON!!!
   radius = map(reading, 0, 500, 1, 500); // map the audio envolope input to the size of 1/4*canvas
+}
+
+function mousePressed()
+{
+  clear();
 }
